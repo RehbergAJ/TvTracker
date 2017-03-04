@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <title>TV Tracker</title>		
+    </head>
+    <body>  
+
+        <form class="form-horizontal" method="POST" action="tvTracker.php">
+
+            <legend>TV Tracker</legend>
+            <h3> All units are counted as hours</h3>
+            <div class="form-group">
+            <label class="col-md-4 control-label" for="txtFName">First Name</label>  
+            <div class="col-md-4">
+            <input id="txtFName" name="txtFName" type="text" placeholder="John" class="form-control input-md">  
+            </div>
+            </div>
+
+            <div class="form-group">
+            <label class="col-md-4 control-label" for="txtLName">Last Name</label>  
+            <div class="col-md-4">
+            <input id="txtLName" name="txtLName" type="text" placeholder="Smith" class="form-control input-md">
+            </div>
+            </div>
+
+            <div class="form-group">
+            <label class="col-md-4 control-label" for="txtBirth">Birth Year</label>  
+            <div class="col-md-4">
+            <input id="txtBirth" name="txtBirth" type="text" placeholder="1980" class="form-control input-md">
+            </div>
+            </div>
+
+            <div class="form-group">
+            <label class="col-md-4 control-label" for="txtSchool">Current Grade/Year in school</label>  
+            <div class="col-md-4">
+            <input id="txtSchool" name="txtSchool" type="text" placeholder="3" class="form-control input-md">
+            </div>
+            </div>
+
+            <div class="form-group">
+            <label class="col-md-4 control-label" for="txtBed">What time do you go to bed?</label>  
+            <div class="col-md-4">
+            <input id="txtBed" name="txtBed" type="text" placeholder="10:00" class="form-control input-md">
+            </div>
+            </div>
+
+            <div class="form-group">
+            <label class="col-md-4 control-label" for="txtWake">What time do you wake up?</label>  
+            <div class="col-md-4">
+            <input id="txtWake" name="txtWake" type="text" placeholder="6:00" class="form-control input-md">
+            </div>
+            </div>
+
+            <div class="form-group">
+            <label class="col-md-4 control-label" for="txtHomework">Time spent on homework each day</label>  
+            <div class="col-md-4">
+            <input id="txtHomework" name="txtHomework" type="text" placeholder="4" class="form-control input-md">
+            </div>
+            </div>
+
+            <div class="form-group">
+            <label class="col-md-4 control-label" for="txtTV">Time spent watching media (TV, Netflix, Youtube, etc.)</label>  
+            <div class="col-md-4">
+            <input id="txtTV" name="txtTV" type="text" placeholder="4" class="form-control input-md">
+            </div>
+            </div>
+
+            <div class="form-group">
+            <label class="col-md-4 control-label" for="txtGame">Time spent playing video games per day (Mobile, console, etc)</label>  
+            <div class="col-md-4">
+            <input id="txtGame" name="txtGame" type="text" placeholder="2" class="form-control input-md">
+            </div>
+            </div>
+
+            <div class="form-group">
+            <label class="col-md-4 control-label" for="txtSocial">Time spent with family and friends</label>  
+            <div class="col-md-4">
+            <input id="txtSocial" name="txtSocial" type="text" placeholder="4" class="form-control input-md">
+            </div>
+            </div>
+
+            <div class="form-group">
+            <label class="col-md-4 control-label" for="txtOut">Time spent outside</label>  
+            <div class="col-md-4">
+            <input id="txtOut" name="txtOut" type="text" placeholder="1" class="form-control input-md">
+            </div>
+            </div>
+
+            <div class="form-group">
+            <label class="col-md-4 control-label" for="btnSubmit"></label>
+            <div class="col-md-4">
+                <button id="btnSubmit" name="btnSubmit" onclick="tvTracker.php" class="btn btn-primary">Submit</button>
+            </div>
+            </div>
+
+        </form>
+    </body>
+</html>
